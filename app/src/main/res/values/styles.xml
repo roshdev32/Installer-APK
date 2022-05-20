@@ -134,14 +134,6 @@
         <item name="simpleThemeTextSecondaryColor">@color/colorTextSecondaryMint</item>
     </style>
 
-    <style name="AppTheme.FDroidDark" parent="AppTheme.Simple.Dark">
-        <item name="simpleThemePrimaryColor">@color/colorPrimaryFDroidDark</item>
-        <item name="simpleThemePrimaryLightColor">@color/colorPrimaryLightFDroidDark</item>
-        <item name="simpleThemeAccentColor">@color/colorAccentFDroidDark</item>
-        <item name="simpleThemeTextPrimaryColor">@color/colorTextPrimaryFDroidDark</item>
-        <item name="simpleThemeTextSecondaryColor">@color/colorTextSecondaryFDroidDark</item>
-    </style>
-
 
     <style name="SAIMaterialButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
         <item name="android:layout_width">wrap_content</item>
@@ -259,7 +251,7 @@
         <item name="textColorAlertDialogListItem">?android:attr/textColorSecondary</item>
     </style>
 
-    <style name="AlertDialog.AppTheme.Simple.Light" parent="AlertDialog.AppTheme.Light">
+    <style name="AlertDialog.AppTheme.Simple.Light" parent="Theme.AppCompat.Light.Dialog.Alert">
         <item name="android:textColorPrimary">?attr/simpleThemeTextSecondaryColor</item>
         <item name="android:textColorSecondary">?attr/simpleThemeTextPrimaryColor</item>
     </style>

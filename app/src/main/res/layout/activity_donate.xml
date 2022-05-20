@@ -4,6 +4,6 @@
     android:id="@+id/fragment_container_donate"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activities.DonateActivity">
+    tools:context="com.installer.apkinstaller.ui.activities.DonateActivity">
 
 </androidx.fragment.app.FragmentContainerView>

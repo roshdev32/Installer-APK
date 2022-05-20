@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.aefyr.sai.view.ViewSwitcherLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.installer.apkinstaller.view.ViewSwitcherLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/container_backup_dialog"
     android:layout_width="match_parent"
@@ -121,4 +121,4 @@
             android:text="@string/backup_load_splits_error" />
     </LinearLayout>
 
-</com.aefyr.sai.view.ViewSwitcherLayout>
+</com.installer.apkinstaller.view.ViewSwitcherLayout>

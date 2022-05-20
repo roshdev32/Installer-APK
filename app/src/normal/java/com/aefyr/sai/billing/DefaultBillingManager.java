@@ -12,7 +12,7 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.preference.PreferenceManager;
 
-import com.aefyr.sai.R;
+import installer.apk.xapk.apkinstaller.R;
 import com.aefyr.sai.ui.dialogs.SimpleAlertDialogFragment;
 import com.android.billingclient.api.AcknowledgePurchaseParams;
 import com.android.billingclient.api.BillingClient;

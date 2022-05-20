@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name" translatable="false">SAI</string>
-    <string name="app_name_full" translatable="false">Split APKs Installer</string>
+    <string name="app_name" translatable="false">Installer APK</string>
+    <string name="app_name_full" translatable="false">Installer APK</string>
 
     <string name="yes">Yes</string>
     <string name="no">No</string>
@@ -16,8 +16,8 @@
     <string name="filepicker_internal">Internal file picker</string>
     <string name="filepicker_saf">System file picker</string>
 
-    <string name="permissions_required_storage">SAI requires permission to access storage</string>
-    <string name="permissions_required_shizuku">SAI requires permission to use Shizuku Server</string>
+    <string name="permissions_required_storage">Installer APK requires permission to access storage</string>
+    <string name="permissions_required_shizuku">Installer APK requires permission to use Shizuku Server</string>
 
     <string name="main_installer">Installer</string>
     <string name="main_backup">Backup</string>
@@ -27,7 +27,7 @@
     <string name="installer_installation_failed">App not installed</string>
     <string name="installer_installation_in_progress">Installing…</string>
     <string name="installer_install_apks">Install APKs</string>
-    <string name="installer_help"><b>What is SAI?</b>\nSAI (Split APKs Installer) is an app that lets you install multiple APKs as if it was a single package. This is useful for installing apps that are distributed as App Bundles since Android provides no built-in way to install them from sources other than Google Play.\n\n<b>How to use SAI?</b>\nClick \"Install APKs\" button and select base APK and additional configuration-specific APKs or a ZIP archive that contains all required APKs, then click \"Select\" button to start installation process.\n\n<b>.apks</b>\nYou can rename a .zip archive that contains .apk files to .apks (e.g.: somesplitapp.zip -> somesplitapp.apks), so it can be opened with SAI from other apps.\n\n<b>Installing apps from external storage</b>\nYou can long click install button to select files via system file picker that supports external storage.</string>
+    <string name="installer_help"><b>What is Installer APK?</b>\nInstaller APK is an app that lets you install multiple APKs as if it was a single package. This is useful for installing apps that are distributed as App Bundles since Android provides no built-in way to install them from sources other than Google Play.\n\n<b>How to use Installer APK?</b>\nClick \"Install APKs\" button and select base APK and additional configuration-specific APKs or a ZIP archive that contains all required APKs, then click \"Select\" button to start installation process.\n\n<b>.apks</b>\nYou can rename a .zip archive that contains .apk files to .apks (e.g.: somesplitapp.zip -> somesplitapp.apks), so it can be opened with Installer APK from other apps.\n\n<b>Installing apps from external storage</b>\nYou can long click install button to select files via system file picker that supports external storage.</string>
     <string name="installer_pick_apks">Select files to install</string>
     <string name="installer_app_installed">App installed</string>
     <string name="installer_open">Open</string>
@@ -41,11 +41,11 @@
     <string name="installer_error_incompatible">Application is incompatible with this device</string>
     <string name="installer_error_bad_apks">Invalid APK files selected</string>
     <string name="installer_error_storage">Not enough storage space to install the app</string>
-    <string name="installer_error_lidl_rom">Your ROM is incompatible with rootless installer. Try selecting another installer in SAI settings.</string>
+    <string name="installer_error_lidl_rom">Your ROM is incompatible with rootless installer. Try selecting another installer in Installer APK settings.</string>
     <string name="installer_error_shell">%1$s installer error:\n\n %2$s</string>
     <string name="installer_error_rootless">Rootless installer error:\n\n %s</string>
     <string name="installer_error_root_no_root">Unable to acquire root access</string>
-    <string name="installer_error_shizuku_unavailable">Unable to access Shizuku Server, please make sure it\'s running and SAI is authorized to use it</string>
+    <string name="installer_error_shizuku_unavailable">Unable to access Shizuku Server, please make sure it\'s running and Installer APK is authorized to use it</string>
     <string name="installer_error_while_extracting">Error while extracting APK files from ZIP: %s</string>
     <string name="installer_error_zip_contains_no_apks">ZIP doesn\'t contain any apk files</string>
     <string name="installer_error_mixed_extensions">You must select either a single .zip/.apks file or multiple .apk files</string>
@@ -55,7 +55,7 @@
     <string name="installer_select_theme">Select theme</string>
     <string name="installer_device">Device</string>
     <string name="installer_miui_warning_title">MIUI detected</string>
-    <string name="installer_miui_warning_message"><b>Seriously, read this one-time warning!</b>\n\nSorry for taking your time, but I\'m really tired of people with MIUI who have been skipping the previous version of this warning.\n\nLooks like your device is running MIUI. MIUI is known for breaking standard Android API features and a lot of SAI users have reported installations failing on MIUI for no reason with \"Installation failed\". Usually it can be fixed by disabling MIUI optimizations in developer settings, which I suggest you should do.\n\nOf course you can try using SAI without disabling MIUI optimization, but if it doesn\'t work, try disabling it before complaining to me about failed installations. If your MIUI version doesn\'t have that toggle or it doesn\'t help, there\'s nothing I can do.\n\nThis issue is supposed to be fixed on MIUI 20.2.20 and up (xiaomi.eu and eu-based ROMs).</string>
+    <string name="installer_miui_warning_message"><b>Seriously, read this one-time warning!</b>\n\nSorry for taking your time, but I\'m really tired of people with MIUI who have been skipping the previous version of this warning.\n\nLooks like your device is running MIUI. MIUI is known for breaking standard Android API features and a lot of Installer APK users have reported installations failing on MIUI for no reason with \"Installation failed\". Usually it can be fixed by disabling MIUI optimizations in developer settings, which I suggest you should do.\n\nOf course you can try using Installer APK without disabling MIUI optimization, but if it doesn\'t work, try disabling it before complaining to me about failed installations. If your MIUI version doesn\'t have that toggle or it doesn\'t help, there\'s nothing I can do.\n\nThis issue is supposed to be fixed on MIUI 20.2.20 and up (xiaomi.eu and eu-based ROMs).</string>
     <string name="installer_miui_warning_open_dev_settings">Open developer settings</string>
     <string name="installer_miui_warning_oof">Unable to open developer settings. You can try opening them manually, google how to do that.</string>
     <string name="installer_unknown_app">Unknown app</string>
@@ -135,7 +135,7 @@
     <string name="backup_search_hint">Search apps</string>
     <string name="backup_search_splits_only">Split APKs only</string>
     <string name="backup_search_show_system_apps">Show system apps</string>
-    <string name="backup_warning"><b>Managed backups are currently in beta, please report issues in SAI\'s GitHub repo (you can find the link on about screen)</b>\n\n<b>Backup files format</b>\nSAI backups apps as .apks files (which are just ZIP archives with .apk files) with some meta information added to the archive (such as app name and icon). Backed up .apks files can still be installed as normal .apks files (because they are normal .apks files, except for some additional files in the archive which are ignored by installer)\n\n<b>What is backed up</b>\nCurrently SAI backups only apps APK files (no data/obb/etc)\n\n<b>External changes to backup directory</b>\nSAI doesn\'t automatically keep track of external changes done to files in the backup directory. So, if you\'ve changed them outside of SAI, use reindex option in 3-dots menu at the top right of backup screen to rescan backups directory.\n\n<b>You can always open this help from the 3-dots menu at the top right of backup screen</b></string>
+    <string name="backup_warning"><b>Managed backups are currently in beta, please report issues in Installer APK\'s GitHub repo (you can find the link on about screen)</b>\n\n<b>Backup files format</b>\nInstaller APK backups apps as .apks files (which are just ZIP archives with .apk files) with some meta information added to the archive (such as app name and icon). Backed up .apks files can still be installed as normal .apks files (because they are normal .apks files, except for some additional files in the archive which are ignored by installer)\n\n<b>What is backed up</b>\nCurrently Installer APK backups only apps APK files (no data/obb/etc)\n\n<b>External changes to backup directory</b>\nInstaller APK doesn\'t automatically keep track of external changes done to files in the backup directory. So, if you\'ve changed them outside of Installer APK, use reindex option in 3-dots menu at the top right of backup screen to rescan backups directory.\n\n<b>You can always open this help from the 3-dots menu at the top right of backup screen</b></string>
     <string name="backup_export_all_splits">Backup all split APKs</string>
     <string name="backup_export_all_splits_prompt">Do you want to backup all split APKs?</string>
     <string name="backup_export_selected_apps_prompt">Do you want to backup %d selected apps?</string>
@@ -182,14 +182,14 @@
     <string name="backup_component_apk_files">APK Files</string>
     <string name="backup_component_unknown">Unknown component with type \"%s\"</string>
     <string name="backup_lbs_provider_name">Local storage</string>
-    <string name="backup_lbs_warning_no_dir">Please select a directory to store backups. .apks files exported with SAI 3.10+ in the selected directory will be indexed as backups. Default directory for backups prior to SAI 4.0 used to be Internal Storage > SAI</string>
+    <string name="backup_lbs_warning_no_dir">Please select a directory to store backups. .apks files exported with Installer APK in the selected directory will be indexed as backups.</string>
     <string name="backup_lbs_select_dir">Select directory</string>
-    <string name="backup_lbs_current_dir">Current backups directory: %s\n\nNote: SAI will only show backups from the currently selected directory.</string>
+    <string name="backup_lbs_current_dir">Current backups directory: %s\n\nNote: Installer APK will only show backups from the currently selected directory.</string>
     <string name="backup_settings">Backup settings</string>
     <string name="backup_open_app_in_system_settings">Open in system settings</string>
     <string name="backup_open_app_in_system_settings_error">Unable to open app in system settings</string>
     <string name="backup_export_apk">Export as a .apk file</string>
-    <string name="backup_export_apk_desc">Export a single selected part as a .apk file. Exported .apk files are not backups and won\'t be managed by SAI</string>
+    <string name="backup_export_apk_desc">Export a single selected part as a .apk file. Exported .apk files are not backups and won\'t be managed by Installer APK</string>
 
     <string name="settings_title">Settings</string>
     <string name="settings_main_home_directory">Home directory</string>
@@ -199,30 +199,30 @@
     <string name="settings_main_pick_dir">Pick Directory</string>
     <string name="settings_main_about">About</string>
     <string name="settings_main_use_root">Use root</string>
-    <string name="settings_main_use_root_summary">Try using rooted installer. If SAI is unable to acquire root access it will fallback to rootless installer</string>
+    <string name="settings_main_use_root_summary">Try using rooted installer. If Installer APK is unable to acquire root access it will fallback to rootless installer</string>
     <string name="settings_main_use_root_error">Unable to acquire root access</string>
     <string name="settings_main_sign_apks">Sign APKs</string>
     <string name="settings_main_sign_apks_summary">Sign APKs before installing</string>
     <string name="settings_main_extract_archives">Extract APKs from archives</string>
-    <string name="settings_main_extract_archives_summary">Extract APK files from .zip/.apks archives into temporary files before installing them. If disabled, SAI will install APKs directly from archives without temp files. Not recommended to enable</string>
+    <string name="settings_main_extract_archives_summary">Extract APK files from .zip/.apks archives into temporary files before installing them. If disabled, Installer APK will install APKs directly from archives without temp files. Not recommended to enable</string>
     <string name="settings_main_use_zipfile">Use ZipFile API</string>
     <string name="settings_main_use_zipfile_summary">Use ZipFile API to read ZIP archives (including .apks files), solves compatibility issues with some archives. Not recommended to enable unless an installer error message asks you to because this adds otherwise unnecessary overhead</string>
     <string name="settings_main_use_brute_parser">Fallback to parsing APK</string>
-    <string name="settings_main_use_brute_parser_summary">In Pro mode, when SAI is unable to find meta information (such as icon and title) about an app in the source (such as a .apks file or a ZIP archive), it will copy the base APK to a temp file and parse it directly to obtain meta information about the app. SAI will not copy and parse APKs larger than 100MBs</string>
+    <string name="settings_main_use_brute_parser_summary">In Pro mode, when Installer APK is unable to find meta information (such as icon and title) about an app in the source (such as a .apks file or a ZIP archive), it will copy the base APK to a temp file and parse it directly to obtain meta information about the app. Installer APK will not copy and parse APKs larger than 100MBs</string>
     <string name="settings_main_reset_one_time_warnings">Reset one-time warnings</string>
     <string name="settings_main_installer">Installer</string>
     <string name="settings_main_installer_summary">Installer to use for APKs installation.\nCurrently: %s</string>
     <string name="settings_main_installer_error_no_shizuku">You don\'t have Shizuku installed, please get it from Google Play and set it up</string>
-    <string name="settings_main_installer_error_shizuku_pre_m">SAI doesn\'t support Shizuku on Android versions lower than 6.0</string>
+    <string name="settings_main_installer_error_shizuku_pre_m">Installer APK doesn\'t support Shizuku on Android versions lower than 6.0</string>
     <string name="settings_main_backup_file_name_format">Backup file name</string>
     <string name="settings_main_backup_file_name_format_summary">Backup file name format.\nCurrently: %s</string>
     <string name="settings_main_backup_backup_dir">Backup files directory</string>
-    <string name="settings_main_backup_backup_dir_summary">Directory where backups will be stored. SAI will automatically index all valid backups in the selected directory if you change it.\nCurrently: %s</string>
+    <string name="settings_main_backup_backup_dir_summary">Directory where backups will be stored. Installer APK will automatically index all valid backups in the selected directory if you change it.\nCurrently: %s</string>
     <string name="settings_main_backup_backup_dir_dialog">Select directory with</string>
     <string name="settings_main_install_location">Install location</string>
     <string name="settings_main_install_location_summary">Where to install apps.\nCurrently: %s</string>
     <string name="settings_main_use_old_installer">Legacy installer</string>
-    <string name="settings_main_use_old_installer_summary">Use legacy installer implementation. SAI will be restarted to apply this setting (Don\'t switch if there are ongoing installations or backups, they may be corrupted)</string>
+    <string name="settings_main_use_old_installer_summary">Use legacy installer implementation. Installer APK will be restarted to apply this setting (Don\'t switch if there are ongoing installations or backups, they may be corrupted)</string>
     <string name="settings_main_installer_show_dialogs">Show installer dialogs</string>
     <string name="settings_main_installer_show_dialogs_summary">Show dialogs when installation fails or succeeds. You can always open those dialogs manually by tapping installation session entry. Only affects new installer</string>
     <string name="settings_category_main_installer">Installer</string>
@@ -233,7 +233,7 @@
     <string name="settings_main_ui_show_app_features">Show app features</string>
     <string name="settings_main_ui_show_app_features_summary">Show contextual app feature badges on backup screen</string>
     <string name="settings_main_ui_theme">Theme</string>
-    <string name="settings_main_donate">Support SAI</string>
+    <string name="settings_main_donate">Support Installer APK</string>
     <string name="settings_main_auto_theme">Auto theme</string>
     <string name="settings_main_auto_theme_summary">Automatically switch between selected light and dark themes depending on system theme</string>
     <string name="settings_main_auto_theme_picker">Choose themes</string>
@@ -242,11 +242,11 @@
     <string name="settings_main_use_installerx">Pro mode</string>
     <string name="settings_main_use_installerx_summary">Enable installer Pro mode that allows you to select parts to install from a .apks file (or other archives with multiple APK files). Please note that Pro mode is experimental and it may not work properly, feedback is welcome</string>
     <string name="settings_main_enable_analytics">Analytics</string>
-    <string name="settings_main_enable_analytics_summary">Allow SAI to collect analytics data such as app usage data and errors. You can find out more about data being collected in Privacy Policy which you can find on about screen. Changing this setting may not fully apply it until you restart SAI</string>
+    <string name="settings_main_enable_analytics_summary">Allow Installer APK to collect analytics data such as app usage data and errors. You can find out more about data being collected in Privacy Policy which you can find on about screen. Changing this setting may not fully apply it until you restart Installer APK</string>
     <string name="settings_main_backup_settings">Backup settings</string>
     <string name="settings_main_backup_settings_summary">Tap to open backup settings</string>
-    <string name="settings_main_enable_apk_action_view">Enable opening .apk files via SAI</string>
-    <string name="settings_main_enable_apk_action_view_summary">Support opening .apk files via SAI from other apps. Can be disabled since on some ROMs this setting being enabled doesn\'t let you open .apk files at all</string>
+    <string name="settings_main_enable_apk_action_view">Enable opening .apk files via Installer APK</string>
+    <string name="settings_main_enable_apk_action_view_summary">Support opening .apk files via Installer APK from other apps. Can be disabled since on some ROMs this setting being enabled doesn\'t let you open .apk files at all</string>
 
     <string name="name_format_builder_title">Select parts to include in backup file name</string>
     <string name="name_format_builder_preview">Preview: %s</string>
@@ -255,13 +255,13 @@
     <!-- These strings that start with "sss_" don't really have to be translated except for the warning maybe -->
     <string name="sss">Super Secret Settings</string>
     <string name="sss_warning_title"><b>WARNING</b></string>
-    <string name="sss_warning_summary"><b>Don\'t touch anything here unless you know what you\'re doing. Some options here can break SAI or even damage your system</b></string>
+    <string name="sss_warning_summary"><b>Don\'t touch anything here unless you know what you\'re doing. Some options here can break Installer APK or even damage your system</b></string>
     <string name="sss_dont_replace_dots_title">Don\'t replace dots with commas</string>
     <string name="sss_dont_replace_dots_summary">In backup file name</string>
     <string name="sss_custom_install_create_title">Custom install-create command</string>
     <string name="sss_custom_install_create_summary">Custom install-create command that will be used to create pm session used in Rooted and Shizuku installers, the command must not contain any spaces except for the ones that separate arguments (\'spaces in quotes\' will be split into arguments as well). Enter \"null\" to disable</string>
     <string name="sss_fake_backup_timestamp">Fake backup timestamp</string>
-    <string name="sss_fake_backup_timestamp_summary">Add constant timestamp (Jan 1 2000, 00:00) to backups. Makes hashes of backup files of the same APK files same. SAI will have no idea what backup is the latest one though</string>
+    <string name="sss_fake_backup_timestamp_summary">Add constant timestamp (Jan 1 2000, 00:00) to backups. Makes hashes of backup files of the same APK files same. Installer APK will have no idea what backup is the latest one though</string>
     <string name="sss_test_crash">Crash app</string>
 
     <string name="mi_continue_countdown">You can continue in %d s.</string>
@@ -269,11 +269,11 @@
     <string name="mi_miui_version">MIUI version - %1$s (%2$d (%3$s))</string>
     <string name="mi_consequences">Depending on your MIUI version, turning off MIUI optimization may do nothing, reset apps permissions or have other unexpected consequences</string>
 
-    <string name="donate_message_not_donated">Hello. As you know, SAI is a completely free open-source app and it will always stay that way. If you like it, please consider supporting SAI by making a donation. You will also get the legendary <b>SAI Gold</b> theme!</string>
-    <string name="donate_message_donated">Huge thanks for supporting SAI!\nDon\'t forget to check out your new <b>SAI Gold</b> theme</string>
-    <string name="donate_message_floss">Hello. You\'re using FLOSS version of SAI. As you know, SAI is a completely free open-source app and it will always stay that way. If you like it, please consider supporting SAI by making a donation.\n\nIn FLOSS version, the <b>FLOSS Gold</b> theme is available by default.</string>
+    <string name="donate_message_not_donated">Hello. As you know, Installer APK is a completely free open-source app and it will always stay that way. If you like it, please consider supporting Installer APK by making a donation. You will also get the legendary <b>Installer APK Gold</b> theme!</string>
+    <string name="donate_message_donated">Huge thanks for supporting Installer APK!\nDon\'t forget to check out your new <b>Installer APK Gold</b> theme</string>
+    <string name="donate_message_floss">Hello. You\'re using FLOSS version of Installer APK. As you know, Installer APK is a completely free open-source app and it will always stay that way. If you like it, please consider supporting Installer APK by making a donation.\n\nIn FLOSS version, the <b>FLOSS Gold</b> theme is available by default.</string>
     <string name="donate_message_unknown_or_error">Unable to get donation status. Please make sure you have Google Play Services installed and try restarting your device.</string>
-    <string name="donate_message_pending">Your donation is pending. If it isn\'t applied automatically after you complete it, please restart SAI.</string>
+    <string name="donate_message_pending">Your donation is pending. If it isn\'t applied automatically after you complete it, please restart Installer APK.</string>
     <string name="donate_non_iap_yandex_title">Yandex.Money</string>
     <string name="donate_non_iap_yandex_desc">Basically CIS PayPal lol</string>
     <string name="donate_non_iap_yandex_target" translatable="false">https://money.yandex.ru/to/410015319360538</string>
@@ -287,12 +287,12 @@
     <string name="installerx_dialog_choose_filepicker">How do you want to select files to install?</string>
     <string name="installerx_dialog_loading">Parsing APKs…</string>
     <string name="installerx_dialog_install">Install</string>
-    <string name="installerx_dialog_error">SAI has encountered an unexpected error while trying to parse selected file(s)</string>
-    <string name="installerx_dialog_resolution_error_non_critical">Parser has encountered the following error:\n\n%s\n\nDo you want to try installing selected files anyway? Even if SAI was unable to parse them, Android may still be able to install them successfully</string>
+    <string name="installerx_dialog_error">Installer APK has encountered an unexpected error while trying to parse selected file(s)</string>
+    <string name="installerx_dialog_resolution_error_non_critical">Parser has encountered the following error:\n\n%s\n\nDo you want to try installing selected files anyway? Even if Installer APK was unable to parse them, Android may still be able to install them successfully</string>
     <string name="installerx_dialog_resolution_error_critical">Parser has encountered a critical error:\n\n%s</string>
     <string name="installerx_dialog_warn_multiple_files">Multiple files selected, to customize installation you should select a single file. Do you want to install all of the selected files without customization?</string>
     <string name="installerx_dialog_warn_no_files">Got empty result from the parser</string>
-    <string name="installerx_dialog_warn_parsing_fail">SAI was unable to parse selected file. Do you want to try to install it anyway, without customization?</string>
+    <string name="installerx_dialog_warn_parsing_fail">Installer APK was unable to parse selected file. Do you want to try to install it anyway, without customization?</string>
     <string name="installerx_select_splits_hint">You can select what split APK parts to install, best matching parts were selected automatically</string>
     <string name="installerx_category_base_apk">Base APK</string>
     <string name="installerx_category_dynamic_features">Dynamic features</string>
@@ -310,7 +310,7 @@
     <string name="installerx_split_config_dpi_for_base">%1$s (%2$d DPI) resources for base APK</string>
     <string name="installerx_split_config_dpi_for_module">%1$s (%2$d DPI) resources for feature \"%3$s\"</string>
     <string name="installerx_category_unknown">Unknown</string>
-    <string name="installerx_category_unknown_desc">Split APK parts with unknown purpose, please open an issue on SAI\'s GitHub and attach this APK or at least a screenshot of parts names if you encounter this. It is highly recommended to install these parts unless you know their exact purpose</string>
+    <string name="installerx_category_unknown_desc">Split APK parts with unknown purpose, please open an issue on Installer APK\'s GitHub and attach this APK or at least a screenshot of parts names if you encounter this. It is highly recommended to install these parts unless you know their exact purpose</string>
 
     <string name="installerx_default_mess_resolver_error_unknown_extension">Unexpected file extension: %s</string>
 
@@ -323,7 +323,7 @@
     <string name="installerx_dsas_meta_resolver_error_no_apks">Source doesn\'t contain any APK files</string>
     <string name="installerx_dsas_meta_resolver_error_no_base_apk">Source doesn\'t contain base APK file</string>
 
-    <string name="installerx_notice_xapk">SAI doesn\'t support extracting obb from XAPK, you\'ll have to do that manually</string>
+    <string name="installerx_notice_xapk">Installer APK doesn\'t support extracting obb from XAPK, you\'ll have to do that manually</string>
     <string name="installerx_notice_no_code_for_base">There are some architecture configuration split parts for base APK, but none of them is supported by your device</string>
     <string name="installerx_notice_no_code_for_feature">There are some architecture configuration split parts for feature \"%s\", but none of them is supported by your device</string>
     <string name="installerx_notice_no_locale_for_base">None of locale configuration split parts for base APK match your languages</string>
@@ -331,17 +331,18 @@
     <string name="installerx_notice_huge_app">This app is huge (>150MB). With huge apps there\'s a chance (the bigger the app size, the higher) that installation will hang but app will still take up storage space that you won\'t be able to reclaim without using root or doing factory reset</string>
 
     <string name="installerx_android_uri_host_file_too_big">File is too big to copy and your system doesn\'t support reading SAF files without copying</string>
-    <string name="installerx_thank_you_scoped_storage_very_cool">On Android 11 and up SAI requires storage permission to directly read files selected via system file picker due to scoped storage implementation making 0 sense. You can deny storage permission, but then SAI will have to copy selected files to parse them, SAI won\'t copy and parse large files.</string>
+    <string name="installerx_thank_you_scoped_storage_very_cool">On Android 11 and up Installer APK requires storage permission to directly read files selected via system file picker due to scoped storage implementation making 0 sense. You can deny storage permission, but then Installer APK will have to copy selected files to parse them, Installer APK won\'t copy and parse large files.</string>
 
-    <string name="theme_sai">SAI</string>
+    <string name="theme_sai">Installer APK</string>
     <string name="theme_ruby">Ruby</string>
     <string name="theme_rena">Rena</string>
     <string name="theme_ukrrooter">Ukrrooter</string>
     <string name="theme_amoled">Amoled</string>
     <string name="theme_pixel">Pixel</string>
-    <string name="theme_sai_fdroid">SAI (F-Droid)</string>
+    <string name="theme_sai_fdroid">Installer APK (F-Droid)</string>
     <string name="theme_dark">Dark</string>
     <string name="theme_gold">Gold</string>
+    <string name="theme_light" translatable="false">Light</string>
     <string name="theme_rena_light">Rena Light</string>
     <string name="theme_mint">Mint</string>
     <string name="theme_fdroid_dark">F-Droid Dark</string>
@@ -353,11 +354,11 @@
 
     <string name="about_author">by polychromaticfox</string>
     <string name="about_source">GitHub</string>
-    <string name="about_source_link" translatable="false">https://github.com/Aefyr/SAI</string>
+    <string name="about_source_link" translatable="false">https://github.com/roshdev32/Installer-APK</string>
     <string name="about_donate">Donate</string>
     <string name="about_donate_link" translatable="false">https://yasobe.ru/na/sai</string>
     <string name="about_licenses">Licenses</string>
-    <string name="about_translate">Help to translate SAI</string>
+    <string name="about_translate">Help to translate Installer APK</string>
     <string name="about_translate_link" translatable="false">https://polychromaticfox.crowdin.com/split-apks-installer</string>
     <string name="about_privacy">Privacy Policy</string>
     <string name="about_eula">End User License Agreement</string>

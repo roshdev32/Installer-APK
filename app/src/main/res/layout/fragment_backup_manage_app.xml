@@ -4,10 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    tools:context="com.aefyr.sai.ui.activities.BackupManageAppActivity">
+    android:orientation="vertical">
 
-    <com.aefyr.sai.view.coolbar.Coolbar
+    <com.installer.apkinstaller.view.coolbar.Coolbar
         android:id="@+id/coolbar_backup_manage_app"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -25,7 +24,7 @@
             app:coolbar_gravity="end"
             app:srcCompat="@drawable/ic_more"
             tools:ignore="MissingPrefix" />
-    </com.aefyr.sai.view.coolbar.Coolbar>
+    </com.installer.apkinstaller.view.coolbar.Coolbar>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_backup_app_details"

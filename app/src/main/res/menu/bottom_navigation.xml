@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:title="@string/main_installer"
-        android:icon="@drawable/ic_install"
-        android:id="@+id/menu_installer" />
+        android:id="@+id/menu_installer"
+        android:icon="@drawable/ic_backup_status_not_installed"
+        android:title="@string/main_installer" />
     <item
         android:title="@string/main_backup"
         android:icon="@drawable/ic_backup"

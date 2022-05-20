@@ -1,13 +1,11 @@
 ## Overview
-Since version 3.10, SAI is adding some meta information to .apks files it exports. This artice describes the format of that meta information.
-
-Meta information consists of 3 files - `icon.png`, `meta.sai_v1.json` and `meta.sai_v2.json`, they're located in the root directory of a .apks file (which is simply a renamed ZIP archive)
+Meta information consists of 3 files - `icon.png`, `meta.installer_apk_v1.json` and `meta.installer_apk_v2.json`, they're located in the root directory of a .apks file (which is simply a renamed ZIP archive)
 
 ## icon.png
 `icon.png` file is simply the icon of an app in PNG format, image size depends on device DPI and it doesn't has to be some exact size
 
-## meta.sai_v1.json
-`meta.sai_v1.json` is a text file with a JSON that contains some meta information about the app. It's named that way so it can easily be recognized and possibly updated later to v2 or something.
+## meta.installer_apk_v1.json
+`meta.installer_apk_v1.json` is a text file with a JSON that contains some meta information about the app. It's named that way so it can easily be recognized and possibly updated later to v2 or something.
 
 The JSON schema of the file is as follows (this isn't [a literal JSON](https://json-schema.org) schema though, since those are huge and this format is super simple), all elements are contained in the root element of the JSON:
 
@@ -34,8 +32,8 @@ Here's an example of meta JSON, it's probably even easier to understand than the
 }
 ```
 
-## meta.sai_v2.json
-`meta.sai_v2.json` is a text file with a JSON that contains some meta information about the app. It's an updated version of the meta file that was introduced in SAI 4.0, it includes some additional information - if app is a split APK, min and target SDK version of the app and backup components array for managed backups.
+## meta.installer_apk_v2.json
+`meta.installer_apk_v2.json` is a text file with a JSON that contains some meta information about the app. it includes some additional information - if app is a split APK, min and target SDK version of the app and backup components array for managed backups.
 
 The JSON schema of the file is as follows (this isn't [a literal JSON](https://json-schema.org) schema though, since those are huge and this format is super simple), all elements are contained in the root element of the JSON:
 

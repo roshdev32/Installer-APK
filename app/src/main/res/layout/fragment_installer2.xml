@@ -7,7 +7,7 @@
     android:layout_gravity="center"
     android:orientation="vertical">
 
-    <com.aefyr.sai.view.coolbar.Coolbar
+    <com.installer.apkinstaller.view.coolbar.Coolbar
         android:id="@+id/coolbar_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,6 +19,7 @@
             android:id="@+id/ib_help"
             style="@style/SAICoolbarImageButton"
             android:contentDescription="@string/help"
+            android:visibility="gone"
             app:coolbar_gravity="start"
             app:srcCompat="@drawable/ic_help"
             tools:ignore="MissingPrefix" />
@@ -29,7 +30,7 @@
             android:contentDescription="@string/installer_select_theme"
             android:rotation="30"
             app:srcCompat="@drawable/ic_dark_theme" />
-    </com.aefyr.sai.view.coolbar.Coolbar>
+    </com.installer.apkinstaller.view.coolbar.Coolbar>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_installer_sessions"

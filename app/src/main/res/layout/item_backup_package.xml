@@ -41,7 +41,7 @@
                     android:id="@+id/tv_app_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="SAI"
+                    android:text="Installer APK"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
                 <TextView
@@ -54,7 +54,7 @@
                     android:id="@+id/tv_app_package"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="com.aefyr.sai" />
+                    android:text="installer.apk.xapk.apkinstaller" />
 
             </LinearLayout>
 
@@ -71,7 +71,7 @@
 
         </LinearLayout>
 
-        <com.aefyr.sai.view.NonInteractiveRecyclerView
+        <com.installer.apkinstaller.view.NonInteractiveRecyclerView
             android:id="@+id/rv_backup_app_features"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

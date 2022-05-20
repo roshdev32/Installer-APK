@@ -43,7 +43,7 @@
 
         </RelativeLayout>
 
-        <com.aefyr.sai.view.ThemeView
+        <com.installer.apkinstaller.view.ThemeView
             android:id="@+id/themeview_dl_selection_light"
             style="@style/ThemeView.Normal.Interactive"
             android:layout_width="match_parent"
@@ -88,7 +88,7 @@
 
         </RelativeLayout>
 
-        <com.aefyr.sai.view.ThemeView
+        <com.installer.apkinstaller.view.ThemeView
             android:id="@+id/themeview_dl_selection_dark"
             style="@style/ThemeView.Normal.Interactive"
             android:layout_width="match_parent"

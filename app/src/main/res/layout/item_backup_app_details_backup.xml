@@ -65,7 +65,7 @@
 
         </LinearLayout>
 
-        <com.aefyr.sai.view.NonInteractiveRecyclerView
+        <com.installer.apkinstaller.view.NonInteractiveRecyclerView
             android:id="@+id/rv_backup_components"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
